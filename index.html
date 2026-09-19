@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" >
+</head>
+<body>
+
+
+    <!-- Menu -->
+    <div id="menu-container"></div>
+
+
+<!--Image--> 
+<div id="carouselExampleIndicators" class="carousel slide" 
+  data-bs-ride="carousel" data-bs-wrap="true"> 
+ 
+  <div class="carousel-indicators"> 
+    <button type="button" data-bs-target="#carouselExampleIndicators" 
+      data-bs-slide-to="0" class="active"></button> 
+ 
+    <button type="button" data-bs-target="#carouselExampleIndicators" 
+      data-bs-slide-to="1"></button> 
+ 
+    <button type="button" data-bs-target="#carouselExampleIndicators" 
+      data-bs-slide-to="2"></button> 
+  </div> 
+ 
+  <div class="carousel-inner"> 
+ 
+    <div class="carousel-item active"> 
+      <img src="image/211.png" class="d-block w-100"> 
+    </div> 
+ 
+    <div class="carousel-item"> 
+      <img src="image/222.png" class="d-block w-100"> 
+    </div> 
+ 
+    <div class="carousel-item"> 
+      <img src="image/223.png" class="d-block w-100"> 
+    </div> 
+ 
+  </div> 
+ 
+  <!-- ลูกศรซ้าย --> 
+  <button class="carousel-control-prev" type="button" 
+    data-bs-target="#carouselExampleIndicators" data-bs-slide="prev"> 
+    <span class="carousel-control-prev-icon"></span> 
+  </button> 
+ 
+  <!-- ลูกศรขวา --> 
+  <button class="carousel-control-next" type="button" 
+    data-bs-target="#carouselExampleIndicators" data-bs-slide="next"> 
+    <span class="carousel-control-next-icon"></span> 
+  </button> 
+     <style>
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;
+}
+
+.carousel-control-prev-icon::after {
+  content: '‹';
+  color: #352ad1;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.carousel-control-next-icon::after {
+  content: '›';
+  color: #352ad1;
+  font-size: 60px;
+  font-weight: bold;
+}
+</style>
+ 
+</div>
+
+<!-- Content here -->
+    <div class="container">
+
+       <!--hiro-->
+      <div class="px-4 py-5 my-5 text-center">
+        <img class="d-block mx-auto mb-4" src="image/โลโก้.jpg" alt="" width="100" height="100">
+        <h1 class="display-5 fw-bold text-body-emphasis">Centered hero</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s
+            most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system,
+            extensive prebuilt components, and powerful JavaScript plugins.</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center"> <button type="button"
+              class="btn btn-primary btn-lg px-4 gap-3">Primary button</button> <button type="button"
+              class="btn btn-outline-secondary btn-lg px-4">Secondary</button> </div>
+        </div>
+      </div>
+
+      <!---->
+      <div class="row">
+    <div class="col-sm-3 mb-3 ">
+        <img src="image/11.avif" width="100%" height="320"    >
+        <h2>เมนคูน</h2>
+        <p>ราคา 55,000 บาท</p>
+        <a class="btn btn-success" href="#" role="button"><i class="bi bi-cart3"></i> + </a>
+      </div>
+       <div class="col-sm-3 mb-3 ">
+        <img src="image/22.avif" width="100%" height="320"  >
+        <h2>นอร์วีเจียน ฟอเรสต์</h2>
+        <p>ราคา 39,000 บาท</p>
+        <a class="btn btn-success" href="#" role="button"><i class="bi bi-cart3"></i> + </a>
+    </div>  
+    <div class="col-sm-3 mb-3">
+        <img src="image/99.avif" width="100%" height="320" >
+        <h2>รากามัฟฟิน</h2>
+        <p>ราคา 40,000 บาท</p>
+        <a class="btn btn-success" href="#" role="button"><i class="bi bi-cart3"></i> + </a>
+    </div>
+    <div class="col-sm-3 mb-3">
+        <img src="image/122.avif" width="100%" height="320" >
+        <h2>เบอร์แมน</h2>
+        <p>ราคา 25,500 บาท</p>
+        <a class="btn btn-success" href="#" role="button"><i class="bi bi-cart3"></i> + </a>
+      </div>
+
+      <!--3คอลัม-->
+        <div class="container px-4 py-5" id="featured-3">
+          <h2 class="pb-2 border-bottom">Columns with icons</h2>
+          <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="feature col">
+              <div
+                class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                <svg class="bi" width="1em" height="1em" aria-hidden="true">
+                  <use xlink:href="#collection"></use>
+                </svg> </div>
+              <h3 class="fs-2 text-body-emphasis">Featured title</h3>
+              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
+                and probably just keep going until we run out of words.</p> <a href="#" class="icon-link">
+                Call to action
+                <svg class="bi" aria-hidden="true">
+                  <use xlink:href="#chevron-right"></use>
+                </svg> </a>
+            </div>
+            <div class="feature col">
+              <div
+                class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                <svg class="bi" width="1em" height="1em" aria-hidden="true">
+                  <use xlink:href="#people-circle"></use>
+                </svg> </div>
+              <h3 class="fs-2 text-body-emphasis">Featured title</h3>
+              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
+                and probably just keep going until we run out of words.</p> <a href="#" class="icon-link">
+                Call to action
+                <svg class="bi" aria-hidden="true">
+                  <use xlink:href="#chevron-right"></use>
+                </svg> </a>
+            </div>
+            <div class="feature col">
+              <div
+                class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                <svg class="bi" width="1em" height="1em" aria-hidden="true">
+                  <use xlink:href="#toggles2"></use>
+                </svg> </div>
+              <h3 class="fs-2 text-body-emphasis">Featured title</h3>
+              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
+                and probably just keep going until we run out of words.</p> <a href="#" class="icon-link">
+                Call to action
+                <svg class="bi" aria-hidden="true">
+                  <use xlink:href="#chevron-right"></use>
+                </svg> </a>
+            </div>
+          </div>
+        </div>
+        <div class="text-end">
+          <a class="btn bg-primary-subtle" href="https://www.google.com/">Google</a>
+        <!-- </div> -->
+
+
+
+        <!-- Content here -->
+        <h3 class="alert alert-primary mt-4" >หน้าหลัก</h3>
+
+        <div class="alert alert-info text-start" role="alert">
+            Thidarat Tatanan
+          </div>
+
+<div class="text-end">
+<a class="btn btn-info" href="https://www.google.com/?hl=th">Google</a>
+</div> 
+</div> <!--- end container--> <br>
+
+
+<!---แบ่งคอลัมน์ด้วย Grid Systm-->
+    <div class="container text-center">
+        <div class="row">
+          <div class="col-sm-4 bg-primary-subtle ">
+            <h4>เหมียว</h4>
+            <img src="image/5.jpg" width="100%">
+          </div>
+          <div class="col-sm-4 bg-info-subtle">
+           <h4>เจ้าก้อน</h4> 
+            <img src="image/1.jpg" width="100%">
+          </div>
+          <div class="col-sm-4 bg-secondary-subtle">
+            <h2>ลงทะเบียน</h2>
+
+            <form class="text-start">
+                <div class="mb-3">
+                  <label class="form-label">Firstname</label>
+                  <input type="email" class="form-control" id="Firstname" placeholder="Firstname"required >
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Lastname</label>
+                    <input type="text" class="form-control" id="Lastname" placeholder="Lastname"required >
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label">Telephone</label>
+                    <input type="tel" class="form-control" id="phone" placeholder="Telephone" required >
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label">Province</label>
+                    <select class="form-select" id="Province" required >
+                    <option selected>เลือกจังหวัด</option>
+                    <option value="ชลบุรี">ชลบุรี</option>
+                    <option value="ระยอง">ระยอง</option>
+                    <option value="กรุงเทพ">กรุงเทพ</option>
+                    </select>
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label">Email address</label>
+                    <input type="gmail" class="form-control" id="e-mail"  placeholder="Email address" required >
+                  </div>
+
+
+                <div class="mb-3">
+                  <label class="form-label">Password</label>
+                  <input type="password" class="form-control" id="pw" placeholder="Password" required>
+                </div>
+                <div class="text-center">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="reset"  class="btn btn-secondary">Cancel</button>
+              </form>
+          </div>
+        </div><!--- end col  คอลัมน์ที่ 3-->
+      </div>
+
+
+
+</div>
+</body>
+</html>
+
+<script src="js/bootstrap.bundle.min.js" ></script>
+
+
+
+<script>
+   // โหลด menu1.js
+   fetch("menu.html")
+        .then(res => res.text())
+        .then(data => {
+            document.getElementById("menu-container").innerHTML = data;
+
+            // ✅ re-bind toggle หลังจากเมนูถูก inject
+            const sidebarToggle = document.body.querySelector('#sidebarToggle');
+            if (sidebarToggle) {
+                sidebarToggle.addEventListener('click', event => {
+                    event.preventDefault();
+                    document.body.classList.toggle('sb-sidenav-toggled');
+                });
+            }
+        });
+
+
+
+
+
+</script>
